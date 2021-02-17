@@ -1,3 +1,4 @@
+ls
 const newReleases = [{
         id: 70111470,
         title: "Die Hard",
@@ -58,6 +59,7 @@ function mapOf() {
     const map1 = (newReleases.map(newReleases => newReleases.id, newReleases.title));
     console.log(map1);
 }
+
 
 
 mapOf();
