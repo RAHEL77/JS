@@ -58,4 +58,6 @@ function mapOf() {
     const map1 = (newReleases.map(newReleases => newReleases.id, newReleases.title));
     console.log(map1);
 }
+
+
 mapOf();
